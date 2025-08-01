@@ -168,7 +168,7 @@ def crawling(key,rP_M,rP_m,p_M,p_m):
             print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 전체 {len(all_articles)}개의 매물 데이터가 {filename_j}, {filename_c}에 저장되었습니다.")
         else:
             print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 수집할 매물 데이터가 없습니다.")
-        return all_articles()
+        return all_articles
     except Exception as e:
         print(f"오류가 발생했습니다: {str(e)}")
 
