@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import pickle
 
 # JSON 데이터 불러오기
-rent_Data = pd.read_json("data/land_data.json")  # VS Code 실행 시에는 상대경로로 사용
+rent_Data = pd.read_json("./data/land_data.json")  # VS Code 실행 시에는 상대경로로 사용
 
 # 전처리
 rent_Data['floor'] = rent_Data['floorInfo'].str.extract(r'(\d+)').astype(float)
