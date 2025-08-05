@@ -5,10 +5,8 @@ from datetime import datetime
 import codecs
 import time
 import pandas as pd
-from bs4 import BeautifulSoup 
 import streamlit as st
-import tempfile
-import os
+
 
 
 def get_real_estate_data(cortar_no, rP_M, rP_m, p_M, p_m, page=1):

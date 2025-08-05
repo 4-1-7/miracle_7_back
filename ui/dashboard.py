@@ -11,7 +11,6 @@ from streamlit.components.v1 import html
 from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode
 from geopy.geocoders import Nominatim
 import math
-import json
 from ui.sidebar.page_of_distance_per_method import format_address, convert_distance_time, get_car_route, get_walk_route, get_coords, get_route
 # kakao API 키
 kakao_api_key = "fb1bd569e343b2b3821ea18ec1694b74"
