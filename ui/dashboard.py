@@ -119,7 +119,7 @@ def show_homepage(df, selected_location, start_longitude, start_latitude):
 
     sort_options = {
         '건물명': 'articleName',
-        '보증금/월세': 'sameAddrMaxPrc',
+        '보증금/월세': 'rentPrc',
         '협의가능' : 'sameAddrMinPrc',
         '주거유형' : 'realEstateTypeName',
         '매물특징' : 'articleFeatureDesc'
