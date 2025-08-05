@@ -26,7 +26,7 @@ def haversine(lat1, lon1, lat2, lon2):
 
 
 # JSON 데이터 로딩
-
+@st.cache_data
 def load_data():
     with open("./data/land_data.json", "r", encoding="utf-8") as f:
         data = json.load(f)
