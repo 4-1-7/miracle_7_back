@@ -97,7 +97,7 @@ def save_to_csv(all_data, filename_c):
         df.to_csv(f'./data/{filename_c}', index=False, encoding='utf-8-sig')  # Excel 호환 위해 utf-8-sig 사용
         print(f"데이터가 '{filename_c}'에 CSV 형식으로 저장되었습니다.")
     except Exception as e:
-        print(f"CSV 파일 저장 중 오류 발생: {e}")
+        print(f"CSV 파일 저장 중 오류: {e}")
 
 @st.cache_data
 def crawling(key,rP_M,rP_m,p_M,p_m):
